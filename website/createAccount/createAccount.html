@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width+device-width, initial-scale=1.0">
+    <title>Simple signup</title>
+    <link rel="stylesheet" href="C:\Users\wsepi\projects\website\createAccount\createAccount.css">
+    <scirpt src="C:\Users\wsepi\projects\website\createAccount\createAccount.js" type="module"></scirpt>
+
+</head>
+
+
+
+<form action="C:\Users\wsepi\projects\website\main.html" id="signup">
+    <div class="input">
+      <label for="username" class="input__label">Username</label>
+      <input type="text" id="username" class="input__input">
+      <div class="input__error"></div>
+    </div>
+    <div class="input">
+        <label for="password" class="input__label">Password</label>
+        <input type="text" id="password" class="input__input">
+        <div class="input__error"></div>
+    </div>
+    <div class="input">
+      <label for="preferredLanguage" class="input__label">Preferred Language</label>
+      <select class="input__input" id="preferredLanguage">
+        <option value="javascript">JavaScript</option>
+        <option value="typescript">TypeScript</option>
+        <option value="go">Go</option>
+        <option value="kotlin">Kotlin</option>
+      </select>
+      <div class="input__error"></div>
+    </div>
+    <button type="submit">Sign Up</button>
+  </form>
